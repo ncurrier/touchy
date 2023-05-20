@@ -1,6 +1,3 @@
-Certainly, here's a basic template for a README.md file for your script:
-
-```markdown
 # Touchy - Touch and Pen Controller
 
 ## Description
