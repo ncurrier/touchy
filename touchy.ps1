@@ -1,6 +1,4 @@
-# Ascii Art
-
-
+# Touchy 1.0.0
 # Define the one-liners
 $oneLiners = @(
     { Get-PnpDevice | Where-Object {$_.FriendlyName -like '*touch screen*'} | Enable-PnpDevice -Confirm:$false },
