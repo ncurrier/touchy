@@ -10,7 +10,7 @@ $oneLiners = @(
 # Display the Touch and Pen Controller header
 Write-Host "                                     " -BackgroundColor Yellow -ForegroundColor Black
 Write-Host "  Touchy - Touch and Pen Controller  " -BackgroundColor Yellow -ForegroundColor Black
-Write-Host "   Version 1.0.0 - Pixelchemist      " -BackgroundColor Yellow -ForegroundColor DarkGray
+Write-Host "  Version 1.0.0 - Nathaniel Currier  " -BackgroundColor Yellow -ForegroundColor DarkGray
 Write-Host "                                     " -BackgroundColor Yellow -ForegroundColor Black
 
 # Display the available options
