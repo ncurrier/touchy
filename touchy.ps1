@@ -3,8 +3,8 @@
 $oneLiners = @(
     { Get-PnpDevice | Where-Object {$_.FriendlyName -like '*touch screen*'} | Enable-PnpDevice -Confirm:$false },
     { Get-PnpDevice | Where-Object {$_.FriendlyName -like '*touch screen*'} | Disable-PnpDevice -Confirm:$false },
-    { Get-PnpDevice | Where-Object {$_.FriendlyName -like '*pen*'} | Enable-PnpDevice -Confirm:$false },
-    { Get-PnpDevice | Where-Object {$_.FriendlyName -like '*pen*'} | Disable-PnpDevice -Confirm:$false }
+    { Get-PnpDevice | Where-Object {$_.FriendlyName -like '*compliant pen*'} | Enable-PnpDevice -Confirm:$false },
+    { Get-PnpDevice | Where-Object {$_.FriendlyName -like '*compliant pen*'} | Disable-PnpDevice -Confirm:$false }
 )
 
 # Display the Touch and Pen Controller header
